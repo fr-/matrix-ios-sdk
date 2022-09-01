@@ -15,7 +15,7 @@
 //
 
 import Foundation
-import SwiftyBeaver
+@_implementationOnly import SwiftyBeaver
 
 /// Various MXLog configuration options. Used in conjunction with `MXLog.configure()`
 @objc public class MXLogConfiguration: NSObject {
