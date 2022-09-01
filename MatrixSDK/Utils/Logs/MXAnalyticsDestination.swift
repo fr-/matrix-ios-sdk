@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftyBeaver
+@_implementationOnly import SwiftyBeaver
 
 /// SwiftyBeaver log destination that sends errors to analytics tracker
 class MXAnalyticsDestination: BaseDestination {
